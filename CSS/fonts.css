@@ -1,0 +1,193 @@
+body {
+  font-family: "Exo", sans-serif;
+  /* line-height: 32px; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Exo", sans-serif;
+}
+p {
+  line-height: 28px;
+}
+.desc {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(39, 38, 38);
+}
+.desc-box {
+  font-size: 17.5px;
+  font-weight: 600;
+}
+/* ************************************************** */
+/* NAVBAR SECTION */
+.header a {
+  font-size: 26.25px;
+  font-weight: 800;
+}
+.header .navlist a {
+  font-size: 14px;
+  font-weight: 600;
+}
+.header .navlist li i {
+  font-size: 12px;
+  font-weight: 600;
+  color: #d1d5dc;
+}
+.menu-bars{
+    font-size: 22px;
+  font-weight: 600;
+}
+.nav-subscribe a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* ************************************************** */
+/* HOME SECTION */
+
+.home-content h2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 63px;
+  font-weight: 900;
+  text-shadow: 3px 3px #000c;
+}
+.desc-fnt{
+  font-size: 19px;
+  font-weight: 500;
+}
+.home-content .btn {
+    font-size: 19px;
+    font-weight: 700;
+}
+/* ************************************************** */
+/* ARTICLES SECTION */
+#articles h3 {
+  font-size: 42px;
+  font-weight: 900;
+  /* font-family: "Exo", sans-serif; */
+}
+.article-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  /* margin-bottom: 6px; */
+}
+#articles .btn-wrapper .load-btn {
+  font-size: 18px;
+  font-weight: 700;
+}
+/* blog overview (trend) */
+.trend span {
+  font-size: 34px;
+  font-weight: 900;
+}
+.blog-boxes h4 {
+  font-size: 26px;
+  font-weight: 900;
+}
+.t-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.t-desc {
+  margin-top: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #525252;
+}
+.ctgry {
+  font-size: 16px;
+  font-weight: 700;
+}
+/* ******************************* */
+/* AUTHORS SECTION */
+.author h4 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+.author .author-job {
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #525252;
+}
+/* .author .desc {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(39, 38, 38);
+} */
+/* ****************************************** */
+/* REBELLION SECTION */
+.title-section h3 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.title-section p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #525252;
+}
+.community h4 {
+  font-size: 31.5px;
+  font-weight: 900;
+}
+/* .community-desc {
+  font-size: 17.5px;
+  font-weight: 600;
+} */
+
+.rebel p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.rebel .profile-name .his-name {
+  font-size: 16.5px;
+  font-weight: 700;
+}
+.rebel .job-desc span {
+  font-size: 12.5px;
+  font-weight: 400;
+  color: rgb(99, 99, 99);
+}
+#rebellion .btn {
+  font-size: 20px;
+  font-weight: 700;
+}
+/* ****************************************** */
+/* FOOTER SECTION */
+#footer h1 {
+  /* font-family: "Exo", sans-serif; */
+  font-size: 24;
+  font-weight: 900;
+  /* color: white; */
+}
+#footer p {
+  /* font-family: "Exo", sans-serif; */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+#footer h4 {
+  font-size: 22px;
+  font-weight: 900;
+}
+.subscibe-btn{
+  font-size: 19px;
+  font-weight: 700;
+}
+.footer-content .ctgry-list a {
+  font-size: 20px;
+  font-weight: 500;
+}
+#footer .rights p,
+ul {
+  font-weight: 600;
+  font-size: 12px;
+}
+/* ****************************************** */

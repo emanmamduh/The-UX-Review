@@ -1,0 +1,329 @@
+body::selection {
+  background-color: #ffd15b;
+  color: black;
+}
+html{
+  scroll-behavior: smooth;
+  transition: all 0.2s;
+}
+.badge {
+  /* #articles .article .badge { */
+  color: white;
+  padding: 2px 6px;
+  border: 2px solid black;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 600;
+}
+.btn {
+  transition: all 0.2s;
+}
+/* .btn:hover{
+  box-shadow: 0px 0px;
+    transform: translate(6px, 6px);
+} */
+/* ------------------------------------ */
+.btn-wrapper .btn:hover {
+  box-shadow: 0px 0px;
+  transform: translate(6px, 6px);
+}
+/* --------------------------------------- */
+
+.btn.subscibe-btn:hover {
+  background-color: #fdc700;
+}
+/* ********************************************* */
+/* NAVBAR SECTION */
+.navlist .nav-link:hover {
+  color: #ff7a50;
+}
+.nav-subscribe {
+  transition: all 0.3s;
+}
+.nav-subscribe:hover {
+  transform: translate(3px, 3px);
+}
+/* *************************************************** */
+/* SIDEBAR SECTION */
+.menu-list li a {
+  display: inline-block;
+  transition: all 0.2s;
+}
+.menu-list li:hover a {
+  color: #ff7a50;
+  transform: translateY(-4px);
+}
+#sidebar .btn-wrapper .btn:hover {
+  box-shadow: 3px 3px black;
+  transform: translateY(-4px);
+}
+.cancel{
+  transition: all 0.2s;
+}
+.cancel:hover{
+  background-color: #FFE2E2;
+}
+.cancel:hover i{
+ color: #ff7a50;
+}
+/* *************************************************** */
+/* HOME SECTION */
+#home {
+  position: relative;
+}
+#home .home-img {
+  position: relative;
+}
+#home .box1 {
+  /* #authors .box1 { */
+  background-color: #ffdc7d;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 18%;
+  /* right: 2.8%; full screen*/
+  right: 6%;
+  transform: rotate(45deg);
+  z-index: 0;
+}
+#home .box2 {
+  /* #authors .box2 { */
+  background-color: #e5d877;
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 7.5%;
+  /* left: 3.6%; full screen*/
+  left: 6.6%;
+  transform: rotate(-78deg);
+  z-index: 0;
+}
+#home .home-img .badge {
+  font-size: 14px;
+  padding: 7px 12px;
+  box-shadow: 3px 3px black;
+  background-color: #fb2c36;
+  top: -3%;
+  right: -5%;
+  transform: rotate(13deg);
+}
+.home-img {
+  transition: all 0.3s;
+}
+.home-img:hover {
+  transform: translate(-5px, -5px);
+}
+/* *************************************************** */
+/* ARTICLES SECTION */
+
+#articles .article-img {
+  position: relative;
+}
+#articles .article .badge {
+  top: -7%;
+  right: -7%;
+}
+.new {
+  background-color: #fb2c36;
+  transform: rotate(18deg);
+}
+#articles .article .hot {
+  background-color: #2b7fff;
+  top: -10%;
+  transform: rotate(-11deg);
+}
+.viral-article {
+  background-color: #ad46ff;
+  transform: rotate(45deg);
+}
+.article-topics {
+  width: fit-content;
+  padding: 0px 7px;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  font-size: 10px;
+  font-weight: 700;
+  /* margin-left: 8px; */
+  position: relative;
+  top: 0;
+  /* left: ; */
+  /* transform: rotate(30deg); */
+}
+.tech {
+  background-color: #ffdf20;
+  transform: rotate(-1deg);
+}
+.design {
+  background-color: #7bf1a8;
+  transform: rotate(1deg);
+}
+.culture {
+  background-color: #fda5d5;
+  transform: rotate(-2deg);
+}
+.article {
+  transition: all 0.3s;
+}
+.article:hover {
+  /*  hover didn't work with them  */
+  /* top:-1%;
+  left:-1%; */
+  transform: translate(-5px, -5px);
+}
+.article:hover .art1 {
+  color: #e7000b;
+}
+.article:hover .art2 {
+  color: #155dfc;
+}
+.article:hover .art3 {
+  color: #9810fa;
+}
+/* blog overview (trend) */
+.trend {
+  transition: all 0.3s;
+}
+.trend:hover .t1 {
+  color: #e7000b;
+}
+.trend:hover .t2 {
+  color: #155dfc;
+}
+.trend:hover .t3 {
+  color: #9810fa;
+}
+/* blog overview (ctgry) */
+.ctgry {
+  transition: all 0.2s;
+}
+.ctgry:hover {
+  box-shadow: 6px 6px black;
+}
+.ctgry.c1:hover {
+  background-color: #ffdf20;
+}
+.ctgry.c2:hover {
+  background-color: #7bf1a8;
+}
+.ctgry.c3:hover {
+  background-color: #fda5d5;
+}
+.ctgry.c4:hover {
+  background-color: #8ec5ff;
+}
+.ctgry.c5:hover {
+  background-color: #dab2ff;
+}
+/* *************************************************** */
+/* AUTHORS SECTION */
+#authors {
+  position: relative;
+}
+/* .box1 { */
+#authors .box1 {
+  background-color: #e5bd2b;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  top: 7.8%;
+  /* right: 2.8%; full screen*/
+  right: 8.8%;
+  transform: rotate(45deg);
+  z-index: 0;
+}
+/* .box2 { */
+#authors .box2 {
+  background-color: #ffc131;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  bottom: 7.5%;
+  /* left: 3.6%; full screen*/
+  left: 6.6%;
+  transform: rotate(78deg);
+  z-index: 0;
+}
+#authors .author {
+  position: relative;
+  transition: all 0.3s ease;
+}
+#authors .author .sticker {
+  /* background-color:#FB2C36 ; */
+  color: white;
+  padding-inline: 6px;
+  border: 2px solid black;
+  position: absolute;
+  top: 7%;
+  right: 4%;
+  font-size: 12px;
+  font-weight: 500;
+  /* transform: rotate(25deg); */
+}
+.founder {
+  background-color: #fb2c36;
+  transform: rotate(25deg);
+}
+.lead {
+  background-color: #2b7fff;
+  transform: rotate(-12deg);
+}
+.viral {
+  background-color: #ad46ff;
+  transform: rotate(35deg);
+}
+.author:hover .alex {
+  color: #e7000b;
+}
+.author:hover .arnold {
+  color: #155dfc;
+}
+.author:hover .mike {
+  color: #9810fa;
+}
+.author:hover {
+  /*  hover didn't work with them  */
+  /* top:-1%;
+  left:-1%; */
+  transform: translate(-5px, -5px);
+}
+.link:hover {
+  box-shadow: 6px 6px black;
+  transform: translate(-3px, -3px);
+}
+.link.twtr:hover {
+  background-color: #1da1f2;
+}
+.link.linkdn:hover {
+  background-color: #155dfc;
+}
+.link.insta:hover {
+  background-color: #e60076;
+}
+
+/* ============================================ */
+
+/* REBELLION SECTION */
+.title-section::after {
+  content: "";
+  display: inline-block;
+  width: 26%;
+  height: 8px;
+  background-color: black;
+  transform: rotate(-1.5deg);
+}
+/* ============================================ */
+/* FOOTER SECTION */
+.ctgry-item a {
+  transition: all 0.4s;
+}
+#footer .ctgry-item:hover a {
+  color: #ffd15b;
+}
+
+.policy-p a {
+  transition: all 0.4s;
+}
+#footer .policy-p:hover a {
+  color: #ffd15b;
+}
+/* ============================================ */

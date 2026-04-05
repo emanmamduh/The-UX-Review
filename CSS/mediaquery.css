@@ -1,0 +1,330 @@
+@media screen and (min-width: 640px) {
+  #fresh-content .label .fire {
+    display: inline;
+    background-color: black;
+    width: fit-content;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border: 4px solid black;
+    box-shadow: 4px 4px black;
+    padding: 7px 20px;
+    transform: rotate(1.6deg);
+    margin-top: 2%;
+  }
+  #fresh-content .label {
+    padding-block: 5px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .info-wdth {
+    width: 50%;
+  }
+  .article-info .info {
+    display: flex;
+    flex-wrap: wrap;
+    /* column-gap: 40px;
+    justify-content:; */
+  }
+  .article-img {
+    width: 30%;
+  }
+  .load-btn {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* REBELLION SECTION */
+  .rebellion-body {
+    margin-block: 35px;
+  }
+  .title-section::after {
+    content: "";
+    display: inline-block;
+    width: 15%;
+    height: 8px;
+    background-color: black;
+    transform: rotate(-1.2deg);
+  }
+  /* ========================== */
+  /* FOOTER SECTION */
+  .container {
+    width: 100%;
+  }
+  .footer-img {
+    width: 6%;
+  }
+  .footer-img img {
+    padding: 10px;
+  }
+  #footer .footer-content .catgry {
+    width: 30%;
+  }
+  #footer .footer-content .email {
+    width: 70%;
+  }
+  #footer .footer-content .screen-md {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+  }
+  .rights ul {
+    padding: 0;
+  }
+  .rights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* HOME SECTION */
+  #home .home-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .home-content {
+    width: 55%;
+  }
+  .home-img {
+    width: 35%;
+    transform: rotate(6deg);
+  }
+  .home-img:hover {
+    transform: rotate(6deg) translate(-5px, -5px);
+  }
+  #home .box3 {
+    background-color: #e9e591;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    bottom: 9%;
+    /* left: 3.6%; full screen*/
+    left: 35%;
+    transform: rotate(45deg);
+    z-index: 0;
+  }
+  #home .btn-wrapper {
+    width: 85%;
+  }
+  /* ************************************** */
+  #fresh-content {
+    /* padding: 20px; */
+    width: 70%;
+  }
+  #blog-overview {
+    height: fit-content;
+    position: sticky;
+    top: 0;
+    right: 0;
+  }
+
+  #articles .article {
+    display: flex;
+    align-items: start;
+    column-gap: 30px;
+    /* width: 50%; */
+    /* justify-content: space-between; */
+  }
+  .article-img {
+    width: 90%;
+  }
+  #articles .container {
+    position: relative;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 40px;
+  }
+  .article .desc {
+    font-size: 18px;
+  }
+
+  /* AUTHORS */
+  #authors .persons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #authors .persons .author {
+    width: 48%;
+    margin-block: 30px;
+  }
+  .author h4 {
+    font-size: 28px;
+    margin-bottom: 9px;
+  }
+  .author .author-job {
+    margin: 7px;
+    margin-top: 2px;
+    font-size: 16px;
+  }
+  #authors .author .sticker {
+    font-size: 14px;
+  }
+  .author-img {
+    width: 30%;
+    border: 4px solid black;
+  }
+  /* ********************************************* */
+  /* REBELLION */
+  #rebellion {
+    padding: 15px;
+  }
+  .community h4 {
+    font-size: 36px;
+    font-weight: 900;
+  }
+  .community-desc {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+  }
+  .rebel p {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .rebel .profile-name .his-name {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .rebel .job-desc span {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(99, 99, 99);
+  }
+  #rebellion .benefits-list p {
+    font-size: 18px;
+  }
+  #rebellion .community h4 {
+    font-size: 36px;
+  }
+  #rebellion .rebels h5 {
+    font-size: 30px;
+  }
+  #rebellion .btn {
+    font-size: 24px;
+    /* font-weight: 700; */
+  }
+  #rebellion .community {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -40px;
+  }
+  .rebellion-body {
+    display: flex;
+    column-gap: 35px;
+  }
+  /* .b2 {
+  background-color: #2b7fff;
+  width: 51px;
+}
+.b4 {
+  background-color: #00c950;
+  width: 56px;
+} */
+  /* ============================= */
+  /* FOOTER */
+  .footer-img {
+    /* width: 14%; */
+    width: 50px;
+    height: 50px;
+  }
+  .footer-img img {
+    padding: 15px;
+  }
+  #footer .footer-content .title {
+    width: 40%;
+  }
+  #footer .footer-content .catgry {
+    width: 15%;
+  }
+  #footer .footer-content .email {
+    width: 45%;
+  }
+  #footer .footer-content .screen-md {
+    column-gap: 30px;
+  }
+  #footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  #footer .rights p,
+  #footer .rights ul {
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 90%;
+  }
+  /* NAVBAR */
+  .menu-bars {
+    display: none;
+  }
+  .nav-subscribe {
+    display: inline;
+  }
+  .header .navlist {
+    display: flex;
+  }
+
+  /* ********************************************* */
+  /* ARTICLES */
+  .info-wdth {
+    width: 22%;
+  }
+  .frst-item {
+    flex-grow: 1;
+  }
+  .article-info .info {
+    flex-wrap: nowrap;
+  }
+  .article-img {
+    width: 50%;
+  }
+  /* **************************************** */
+  /* AUTHORS */
+  #authors {
+    padding-block: 40px;
+  }
+  #authors .container {
+    width: 87%;
+  }
+  #authors .persons .author {
+    width: 32%;
+    margin-block: 30px;
+  }
+  /* FOOTER */
+  .rights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  #home .container {
+    width: 90%;
+  }
+  /* REBELLION */
+  #rebellion {
+    padding: 10px;
+  }
+  #articles .container {
+    width: 85%;
+  }
+}
+@media screen and (min-width: 1536px) {
+  /* #footer .container {
+    width: 90%;
+  } */
+}
